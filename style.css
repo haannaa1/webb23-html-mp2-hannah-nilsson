@@ -1,3 +1,26 @@
+/* Alla länkar */
+a {
+  background-color: #f57c00; /* Bakgrundsfärg med färgen grön */
+  color: white; /* Vit text på gröna länkar */
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out; /* Smidig övergång på hover */
+}
+
+a:hover {
+  background-color: #00cc66; /* Ny bakgrundsfärg på hover */
+}
+
+/* Länkar till interna sidor */
+nav a {
+  margin: 0 20px; /* 20px margin på höger & vänster sida */
+}
+
+/* Mellanrum på 100px mellan toppen och första elementet */
+.page-content {
+  padding-top: 100px;
+}
+
 form {
     display: flex;
     flex-direction: column;
