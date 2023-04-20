@@ -1,6 +1,9 @@
+:root {--temacolour:#f57c00;}
+
 /* Alla länkar */
+
 a {
-  background-color: #f57c00; /* Bakgrundsfärg med färgen grön */
+  background-color: var(--temacolour); /* Bakgrundsfärg med färgen grön */
   color: white; /* Vit text på gröna länkar */
   padding: 5px 10px;
   border-radius: 5px;
@@ -41,7 +44,7 @@ form {
   }
   
   button {
-    background-color: #ff9800;
+    background-color: var(--temacolour);
     color: white;
     padding: 10px;
     border: none;
@@ -50,7 +53,7 @@ form {
   }
   
   button:hover {
-    background-color: #f57c00;
+    background-color: var(--temacolour);
   }
   
   
